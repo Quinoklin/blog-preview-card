@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    background: rgb(244,208, 78)
+}
+main{
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    margin-top: 15vh;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 0 #000000;
+    border: 1px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+#illustration-article{
+    width: 100%;
+    border-radius: 15px;
+}
+
+button{
+    background-color: rgb(244, 208, 78);
+    border: 0;
+    border-radius: 20;
+    padding-inline: 25px;
+    padding-block: 5px;
+    font-size: 20px;
+    width: fit-content;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
